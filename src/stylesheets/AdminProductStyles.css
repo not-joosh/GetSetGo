@@ -1,0 +1,403 @@
+  .logo {
+    height: 80px;
+  }
+  
+  .search {
+    display: inline;
+    padding-left: 2%;
+  }
+  
+  .searchBar {
+    font-family: Dosis;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 200px;
+    height: 24px;
+    border-style: solid;
+    border-color: rgb(195, 206, 217);
+  }
+  
+  .account-icon {
+    height: 30px;
+    margin-left: 44%;
+    cursor: pointer;
+  }
+  
+  .account-icon:hover {
+    transform: scale(1.18);
+  }
+  
+  .cart-icon {
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .cart-icon:hover {
+    transform: scale(1.18);
+  }
+  
+  .faq-icon {
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .faq-icon:hover {
+    transform: scale(1.18);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 2.5%;
+    text-align: center;
+  }
+  
+  li {
+    font-family: Dosis;
+    color: black;
+    font-weight: bold;
+    display: inline;
+    padding-right: 6%;
+    cursor: pointer;
+  }
+  
+  li:hover{
+    opacity: 0.6;
+  }
+  
+  li:active {
+    color: rgb(49, 130, 177);
+  }
+  
+  
+  .sidepanel {
+    height: 100%; 
+    width: 0;  
+    position: fixed;  
+    z-index: 1; 
+    top: 0;
+    right: 0; 
+    background-color: rgb(225, 225, 225);  
+    overflow: scroll; 
+    padding-top: 1%; 
+    transition: 0.3s;  
+    text-align: center;
+  } 
+  
+  .sidepanel h1 {
+    font-family: Dosis;
+    font-weight: bold;
+    left: 5%;
+    font-size: 25px;
+    color: rgb(75, 159, 207);
+    display: inline-block;
+  }
+  
+  .account-sidepanel {
+    margin-left: 0;
+    height: 30px;
+    padding-top: 10%;
+    padding-right: 5px;
+  }
+  
+  .cart-sidepanel {
+    display: inline-block;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 1%;
+    height: 29px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .faq-sidepanel {
+    display: inline-block;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 1%;
+    height: 29px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .profile-pic {
+    display: block;
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    border: solid;
+    margin-top: 5%;
+    margin-left: 10%
+  }
+  
+  .info {
+    color: black;
+    font-family: Dosis;
+    text-align: left;
+  }
+  
+  .name-label {
+    font-weight: bold;
+    padding-top: 2%;
+    padding-left: 12%;
+    font-size: 18px;
+  }
+  
+  .nameOwner {
+    padding-left: 12%;
+    font-size: 16px;
+  }
+  
+  .email-label {
+    font-weight: bold;
+    padding-top: 2%;
+    padding-left: 12%;
+    font-size: 18px;
+  }
+  
+  .emailOwner {
+    padding-left: 12%;
+    font-size: 16px;
+  }
+  
+  .gender-label {
+    font-weight: bold;
+    padding-top: 2%;
+    padding-left: 12%;
+    font-size: 18px;
+  }
+  
+  .genderOwner {
+    padding-left: 12%;
+    font-size: 16px;
+  }
+  
+  .birthdate-label {
+    font-weight: bold;
+    padding-top: 2%;
+    padding-left: 12%;
+    font-size: 18px;
+  }
+  
+  .birthdateOwner {
+    padding-left: 12%;
+    font-size: 16px;
+  }
+  
+  .history {
+    font-weight: bold;
+    font-family: Dosis;
+    font-size: 15px;
+    height: 25px;
+    width: 250px;
+    margin-top: 5%;
+    cursor: pointer;
+  }
+  
+  .logOut{
+    font-weight: bold;
+    font-family: Dosis;
+    font-size: 15px;
+    height: 25px;
+    width: 250px;
+    margin-top: 7%;
+    cursor: pointer;
+  }
+  
+  .questions a{
+    font-family: Dosis;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    margin-top: 20px;
+    margin-left: 8%;
+    cursor: pointer;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    color: black;
+    top: 0;
+    left: 7px;
+    font-size: 36px;
+  }
+  
+  .sidepanel a:link {
+    text-decoration: none;
+  }
+  
+  .sidepanel a:hover {
+    color: rgb(103, 103, 103);
+  }
+  
+  .products {
+    font-family: Dosis;
+    padding-top: 2%;
+    padding-left: 5%;
+  }
+  
+  .product-box {
+    background-color: white;
+    border: solid;
+    border-color: rgb(195, 206, 217);
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .product-box:hover {
+    border-color: rgb(145, 155, 164);
+    transform: scale(1.07);
+  }
+  
+  .popup .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+    display: none;
+  }
+  
+  .popup .content {
+    font-family: Dosis;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    width: 80%;
+    height: 75%;
+    z-index: 2;
+    text-align: left;
+    padding-left: 3%;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  
+  .popup h1 {
+    font-size: 20px;
+  }
+  
+  .popup .closebtn {
+    font-family: Dosis;
+    position: absolute;
+    color: black;
+    top: 0;
+    right: 2%;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+  .popup.active .overlay {
+    display: block;
+  }
+  
+  .popup.active .content {
+    transition: all 200ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .product-img {
+    display: inline-block;
+    background-color: white;
+    border: solid;
+    border-color: rgb(195, 206, 217);
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .popup .content .description-box {
+    display: inline-block;
+    margin-left: 10%;
+  }
+  
+  .set-category label {
+    margin-top: 50%;
+  }
+  
+  .edit-btn {
+    position: absolute;
+    display: inline-block;
+    top: 4%;
+    right: 5%;
+    font-size: 15px;
+    background-color: white;
+    border: solid;
+    border-color: rgb(195, 206, 217);
+    color: rgb(195, 206, 217);
+    width: 30px;
+    height: 20px;
+    border-radius:4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .edit-btn:hover {
+    color: rgb(139, 145, 150);
+  }
+  
+  .edit-btn:active {
+    color: rgb(91, 97, 103);
+  }
+  
+  .stock {
+    display: flex;
+  
+    /* Border */
+    border: 1px solid #d1d5db;
+    border-radius: 0.25rem;
+  
+    /* Size */
+    height: 7%;
+    width: 10%;
+  }
+  
+  .stock-label {
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 0;
+  }
+  
+  .qty-btn {
+    /* Reset */
+    background: #d1d5db;
+    border: none;
+  
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  
+    /* Size */
+    width: 32%;
+    cursor: pointer;
+  }
+  
+  .qty-btn:hover {
+    background: #a9acb0;
+  }
+  
+  .qty-btn:active {
+    background: #808284;
+  }
+  
+  .input-container {
+    flex: 1;
+  }
+  
+  .input-qty {
+    /* Reset */
+    border: none;
+  
+    /* Take full size of its container */
+    height: 100%;
+    width: 100%;
+  }
+  
