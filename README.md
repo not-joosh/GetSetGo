@@ -14,7 +14,7 @@
 # Contributers and Developers
 - Jimmy Arseo | [GitHub](https://github.com/)
 - Ayesha Ardona | [GitHub](https://github.com/ayeshachryll)
-- Ivan Galicia | [GitHub](https://github.com/)
+- Ivan Galicia | [GitHub](https://github.com/Pseudophobi4)
 - Jeda Lucenara | [GitHub](https://github.com/joe90i)
 - Josh Ratificar | [GitHub](https://github.com/not-joosh)
 
